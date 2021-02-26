@@ -1,0 +1,198 @@
+/*This is the CSS for Lab 2: CSS Crash Course */
+/* Goal 1: CSS Selectors */
+/* Goal 1: Selectors */
+
+/* Universal Styles */
+
+body {
+	font-family: "Papyrus";
+}
+
+.center {
+	text-align: center;
+	padding: 30px;
+}
+
+/* CSS Styles for browndoor.html */
+.browndoor {
+	background-color: rgb(21, 81, 192);
+}
+
+.container {
+	text-align: center;
+}
+
+.brown-img {
+	width: 700px;
+	border-radius: 50%;
+}
+
+.bd-white {
+	color: #fff;
+}
+
+.bd-button {
+	padding: 10px 30px;
+	margin-top: 30px;
+	background-color: #fff;
+	text-transform: uppercase;
+	font-family: "Papyrus";
+	border: solid black 2px;
+}
+
+
+/* chapter1-A.html */
+.chapter1A {
+	background-color: #F5F5DC;
+}
+
+.chapter1-img {
+	width: 500px;
+	border-radius: 50%;
+}
+
+.chapter1-list {
+	list-style-type: none;
+}
+
+.chapter1-list a {
+	font-size: 25px;
+	color:rgb(15, 189, 67);
+}
+
+/* chapter2-a */
+.chapter2a {
+	background-color: rgb(221, 98, 49);
+}
+
+.explosion-img {
+	width: 500px;
+	border-radius: 10px;
+	margin: 15px;
+}
+
+.gameover {
+	color: rgb(192, 0, 0);
+	font-size: 40px;
+}
+
+/* chapter2-b */
+.chapter2b {
+	background-color :rgb(104, 144, 177);
+	color: #fff;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+
+}
+
+.child {
+	margin: 20px;
+}
+
+.child img {
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.chapter2b-list a {
+	color:rgb(11, 112, 41);
+	font-size: 30px;
+
+}
+
+.chapter2b-list {
+	list-style-type: none;
+}
+
+.chapter2b-img {
+	border-radius: 10px;
+}
+
+/* index.html */
+.chapterindex-img {
+	border-radius: 10px;
+}
+
+.index {
+	background-color: rgb(41, 84, 212);
+}
+
+/* intro */
+
+.pgun {
+	border-radius: 50px;
+}
+
+.intro {
+	background-color: seagreen;
+}
+
+.introlist {
+	list-style-type: none;
+}
+
+.introlist a {
+	color:rgb(2, 8, 4);
+	font-size: 30px;
+}
+
+/* chapter1-b */
+
+.chapter1b {
+	background-color: rgb(211, 86, 29);
+}
+
+.lisa {
+	border-radius: 10px;
+}
+
+.normal {
+	color:rgb(255, 255, 255);
+	font-size: 30px;
+}
+
+/* chapter 3-e */
+
+.chapter3e {
+	background-color: slateblue;
+}
+
+.futureisnow {
+	border-radius: 10px;
+	margin: 20px;
+}
+
+/*greendoor.html*/
+
+.greend1 {
+	background-color: slategrey;
+}
+
+.wwest {
+	border-radius: 30px;
+}
+
+/*chapter3d.html*/
+
+.chapter3dbody {
+	background-color: rgb(126, 28, 28);
+}
+
+.hand {
+	border-radius: 60px;
+}
+
+/*victory.html*/
+
+.victorybody {
+	background-color: rgb(211, 117, 11);
+}
+
+.victors {
+	width: 300px;
+	border-radius: 10px;
+}

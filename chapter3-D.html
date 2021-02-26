@@ -1,0 +1,58 @@
+<html>
+<head>
+<title> Time Travel Paradox </title>
+<link rel="icon" href="assets/time.jpg" />
+<link rel="stylesheet" href="styles/styles.css">   
+
+<script>
+    function inputController(){
+    if (input1.value == 'Save the innocent strangers.' && input2.value == 'Pick up the portal gun, and shoot them.'){
+    parent.location='victory.html';
+    }
+    else{
+    parent.location='defeat.html';
+    }
+    }
+    </script>
+
+</head>
+
+<body class= "center chapter3dbody">
+    <p>
+        <b>Wow. You're really good at this! Let's see if you're ready for the next step.</b>
+        <br>
+        <i>~</i>
+
+        <img class= "hand" src='assets/hand.jpg' width='480'> <br>
+
+        <i>~You overhear two young strangers being attacked by cowboys right outside near a wooden cabin.<br>
+            They're enjoying their time beating up innocent kids, knocking the wind and blood out of their body.. </i>
+            As you approach the cabin, you find a 1911 Winchester gun, but realize that there's no ammo loaded, so it deems useless. <br>
+            <b>But,</b> you still have the portal gun. What do you decide to do? The choice is <b>yours.</b>
+    
+        .
+        </p>
+        <div>
+        <label>Select:</label>
+        <select id="input1">
+        <option selected>Choose...</option>
+        <option>Save the innocent strangers.</option>
+        <option>Leave them be, it's not your problem.</option>
+
+        </select>
+        </div>
+        <div>
+        <label>Select:</label>
+        <select id="input2">
+        <option selected>Choose...</option>
+        <option>Run.</option>
+        <option>Pick up the portal gun, and shoot them.</option>
+        <option>Try fighting two armed cowboys with your fists.</option>
+        </select>
+        </div>
+        <input type='button' onClick="inputController()" value='Submit'> 
+</body>
+
+
+
+</html>

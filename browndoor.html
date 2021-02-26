@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title> Opposite of Ghost Town </title>
+    <link rel="icon" href="assets/time.jpg" /> 
+    <link rel="stylesheet" href="styles/styles.css">
+    <script>
+        function inputController(){
+        if (future.checked){
+        parent.location='chapter3-E.html';
+        }
+        else{
+        parent.location='defeat.html';
+        }
+        }
+        </script>
+        
+</head>
+<body class="browndoor">
+    <div class="container bd-white">
+    <h1>Chapter 3: The Opposite of a Ghost Town</h1>
+
+    <td> <img src='assets/future-town.jpg' class="brown-img"> </td>
+
+
+    <p>
+    This riddle uses a radio-type input. <br>
+    Riddle: What is always in front of you but can’t be seen?
+    Select <b>one</b> answer:
+    </p>
+    <div>
+    <label>Select:</label>
+    <br>
+    <input type="radio" id='past' name='input-name' value='past'>
+    <label>past</label>
+    <br>
+    <input type="radio" id='future' name='input-name' value='future'>
+    <label>future</label>
+    <br>
+    <input type="radio" id='present' name='input-name' value='present'>
+    <label>present</label>
+    <br>
+    <input class="bd-button" type="button" onClick="inputController()" value='Submit'>
+    </div>
+</div>
+</body>
+</html>
